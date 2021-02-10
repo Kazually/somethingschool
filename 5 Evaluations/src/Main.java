@@ -17,14 +17,15 @@ public class Main {
         boolean a = true;
         boolean b = false;
         System.out.println((a || b) && ((a == b) || a));
-        System.out.println();
+        System.out.println((b || a) && !a==b);
 
         //Question 4
         a = false;
         b = false;
         x = 5;
         y = 10;
-        System.out.println((a == b) && (x * 4) == (y % 6) * 5);
+        System.out.println((a == b) && (x * 4) == (y % 6) * 5); //20*5 = 100, 4*5 = 20,
+        System.out.println();
 
         //Question 5
         System.out.println((Math.abs(-2) == 2) || (Math.sqrt(Math.pow(9,2)) <= 9 && (-4 <= 4)));
