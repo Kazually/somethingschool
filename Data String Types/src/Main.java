@@ -27,6 +27,6 @@ public class Main
 
         System.out.println("I am in room #" + room);
         System.out.println("E is close to " + somethingaboutdecimal);
-        System.out.println("I am learning slowy in about " );
+        System.out.println("I am learning slowy in about " + );
     }
 } 
