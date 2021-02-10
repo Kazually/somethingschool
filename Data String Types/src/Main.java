@@ -23,10 +23,16 @@ public class Main
         System.out.println( "We have " + passengers + " to carpool today." );
         System.out.println( "We need to put about " + average_passengers_per_car + " in each car." ); */
         int room = 113;
-        double somethingaboutdecimal = 2.71828;
-
+        double specialdecimal = 2.71828;
+        room = 113;
+        String name = "Computer Science";
+        int nameclass = name.indexOf(" ");
+        String firstName = name.substring(0,nameclass);
+        String lastName = name.substring(nameclass +1);
         System.out.println("I am in room #" + room);
-        System.out.println("E is close to " + somethingaboutdecimal);
-        System.out.println("I am learning slowy in about " + );
+        System.out.println(" ");
+        System.out.println("E is close to " + specialdecimal);
+        System.out.println(" ");
+        System.out.println("I am learning slowly in about " + firstName + " "+ lastName);
     }
 } 
