@@ -25,9 +25,14 @@ public class Main {
         x = 5;
         y = 10;
         System.out.println((a == b) && (x * 4) == (y % 6) * 5); //20*5 = 100, 4*5 = 20,
-        System.out.println();
+        System.out.println((!a == !b) && (x*10) == );
 
         //Question 5
         System.out.println((Math.abs(-2) == 2) || (Math.sqrt(Math.pow(9,2)) <= 9 && (-4 <= 4)));
+
+
+
+
+        //https://github.com/Kazually/somethingschool
     }
 }
