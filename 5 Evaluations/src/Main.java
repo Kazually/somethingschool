@@ -11,7 +11,7 @@ public class Main {
         y = 20;
         int z = 30;
         System.out.println((( x == y) || (x < z)) && (x*2 + y)/5 > z);
-        System.out.println();
+        System.out.println(((y*5 + x) < z));
 
         //Question 3
         boolean a = true;
@@ -25,10 +25,11 @@ public class Main {
         x = 5;
         y = 10;
         System.out.println((a == b) && (x * 4) == (y % 6) * 5); //20*5 = 100, 4*5 = 20,
-        System.out.println((!a == !b) && (x*10) == );
+        System.out.println((!a == !b) && (x*10) != (y % 5));
 
         //Question 5
-        System.out.println((Math.abs(-2) == 2) || (Math.sqrt(Math.pow(9,2)) <= 9 && (-4 <= 4)));
+        System.out.println((Math.abs(-2) == 2) || (Math.sqrt(Math.pow(9,2)) <= 9 && (-4 <= 4))); // ,9.0
+        System.out.println(Math.sqrt(Math.pow(30,2)) > 10);
 
 
 
