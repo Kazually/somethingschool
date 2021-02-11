@@ -1,6 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         /*System.out.println("whatever copycat");
+        "psvm" then press 'tab' key
         //le note:expressions
         //operand<operator>operand
         //3+4 (like math)
@@ -51,13 +52,13 @@ public class Main {
         boolean &&/|| boolean
         && if both are true then it is true
         if || one of them is true then the whole thing is true
-         */
+
         System.out.println( 5< 10 || 10 > 8);
         System.out.println(5< 10 && 10 > 8);
         System.out.println(false || !false); //! means not
         System.out.println(!false != false);
-        /* modulus 2 divide by 3 equals 0 remainder 2 (would be 0-4)
-         */
+        modulus 2 divide by 3 equals 0 remainder 2 (would be 0-4)
+
         System.out.println(1%3);
         System.out.println(2%3);
         System.out.println(3%3);
@@ -71,6 +72,14 @@ public class Main {
         int addminute = 250 % 60; //10 evaluated, 10 is remainder
         hour += addhour;
         minute += addminute;
-        System.out.println(hour + ":" + minute);
+        System.out.println(hour + ":" + minute); */
+        /* https://github.com/Kazually/somethingschool.git
+         comments a line above code
+         */
+        /* Random numbers
+        random between 0 to 9, 0-10, int goes to 1 less calculated by computer
+        */
+        int random;
+        System.out.println((int)(Math.random()*10) + 1); //moves decimal by 1// "math"  double became int
     }
 }
