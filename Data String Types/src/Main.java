@@ -24,7 +24,6 @@ public class Main
         System.out.println( "We need to put about " + average_passengers_per_car + " in each car." ); */
         int room = 113;
         double specialdecimal = 2.71828;
-        room = 113;
         String name = "Computer Science";
         int nameclass = name.indexOf(" ");
         String firstName = name.substring(0,nameclass);
