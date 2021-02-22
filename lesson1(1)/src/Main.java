@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
         /*System.out.println("whatever copycat");
@@ -93,7 +95,9 @@ public class Main {
         for (int i = 0; i < numbers.length; i++){
             System.out.println("Index: " + i + "\tValue: " + numbers);
         } */
-
-
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("index");
+        String name = scanner.next();
+        int age = scanner.next();
     }
 }
