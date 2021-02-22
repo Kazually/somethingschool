@@ -17,7 +17,7 @@ public class Main {
         Cwin = 0;
         Player = 0;
         Computer = 0;
-        while (Math.abs(Cwin - Pwin) < 3){
+        while (Math.abs(Cwin - Pwin) < 2){
             Scanner input = new Scanner (System.in);
             Player = input.nextByte();
             Computer = (int)(Math.random() * 5 + 1);
@@ -94,6 +94,7 @@ public class Main {
                     Cwin ++;
                 }
             }
+
         }
     }
 }

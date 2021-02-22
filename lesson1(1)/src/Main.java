@@ -73,13 +73,27 @@ public class Main {
         hour += addhour;
         minute += addminute;
         System.out.println(hour + ":" + minute); */
+
         /* https://github.com/Kazually/somethingschool.git
          comments a line above code
          */
+
         /* Random numbers
         random between 0 to 9, 0-10, int goes to 1 less calculated by computer
         */
-        int random;
-        System.out.println((int)(Math.random()*10) + 1); //moves decimal by 1// "math"  double became int
+        //int random;
+        //System.out.println((int)(Math.random()*10) + 1); //moves decimal by 1// "math"  double became int
+
+        //array [] inside means how many of these, ends 1 less than desired number
+        /*int[] numbers = new int[10];
+        String[] names;
+        for (int i = 0; i < numbers.length; i++){ //can put any variable in i slot, if put 11 its an error, length = no out of bounds
+            numbers[i] = i*3;
+        }
+        for (int i = 0; i < numbers.length; i++){
+            System.out.println("Index: " + i + "\tValue: " + numbers);
+        } */
+
+
     }
 }
