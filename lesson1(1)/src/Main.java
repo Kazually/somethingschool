@@ -76,9 +76,7 @@ public class Main {
         minute += addminute;
         System.out.println(hour + ":" + minute); */
 
-        /* https://github.com/Kazually/somethingschool.git
-         comments a line above code
-         */
+
 
         /* Random numbers
         random between 0 to 9, 0-10, int goes to 1 less calculated by computer
@@ -95,9 +93,11 @@ public class Main {
         for (int i = 0; i < numbers.length; i++){
             System.out.println("Index: " + i + "\tValue: " + numbers);
         } */
-        Scanner scanner = new Scanner(System.in);
+        /*Scanner scanner = new Scanner(System.in);
         System.out.println("index");
         String name = scanner.next();
         int age = scanner.next();
+
+         */
     }
 }
