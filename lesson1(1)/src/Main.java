@@ -1,7 +1,65 @@
 import java.util.Scanner;
 
 public class Main {
+    //methods
+    //this wont run unless called
+    // int, void
+    /*public static int returnfive(){
+        System.out.println("hello");
+        return 5;
+    }*/
+    /*
+    calculates sqaure root of positive, perfect square, if num is not positive,
+    perfect square it returns -1
+    brute force algorithm/guess and check
+     */
+    public static int[] number (int[] inputarray, int num) {
+        int[] outputarray = new int[inputarray.length + 1];
+        //in a for loop copy the input array to the output array
+        //return the array
+        return outputarray;
+    }
+
+        //public static int sqrt(int num){
+        //double guess = 0;
+        //int increment = 1;
+        //double low = 0;
+        //double high = num;
+        //double mid = (low + high) / 2;
+        //double increment = .000000001;
+        //int count = 0;
+        //double error = .000001;
+        /*while ( (Math.abs((guess * guess - num)) > error) && (guess * guess < num)){ //guess * guess < num previously here
+            guess += increment;
+            count++;
+        }
+        while ( (Math.abs((mid * mid - num)) > error) && (mid < num)){
+        if (mid * mid > num){
+        high = mid;
+        mid = (low + high) /2;
+        }
+        else if (mid * mid < num){
+            low = mid;
+        }
+        }
+            System.out.println(count);
+        return guess;
+        //if ((guess * guess) == num) {
+        //    return guess; //once it reaches desired, code stops no matter what
+        //} else {
+        //    return -1;
+        //}*/
+
+
     public static void main(String[] args) {
+        //System.out.println(sqrt(144)); // 200 = -1
+        //int x = returnfive();
+        //public static int[] deletenumber(int[] inputarray){
+
+        }
+        //public static int[] insertnumber(int[] inputarray, int num)
+        //int numbers [] = new int[];
+
         /*System.out.println("whatever copycat");
         "psvm" then press 'tab' key
         //le note:expressions
@@ -97,7 +155,6 @@ public class Main {
         System.out.println("index");
         String name = scanner.next();
         int age = scanner.next();
-
          */
     }
 }

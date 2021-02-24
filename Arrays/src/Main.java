@@ -1,5 +1,4 @@
 import java.util.Arrays;
-import java.util.Collection;
 import java.util.Scanner;
 
 public class Main {
@@ -29,29 +28,45 @@ public class Main {
         System.out.println("Average " + total / array.length);
 */
         //swap
-        int[] array = new int[10]; //how many positions
-        int x = 24;
-        int y = 89;
+        /*int[] array = new int[10]; //how many positions
         int total = 0;
         int swap = 0;
+        int e = 0;
         for (int que2 = 0; que2 < array.length; que2++) {
             array[que2] = (int) (Math.random() * 100) + 1;
         }
         for (int i = 0; i < array.length; i++) {
             total = array[i] + total;
-            System.out.println(total); // 1+2=3, 2+3=5, 3+5
-            if (total == x) {
-                System.out.println("workd " + total);
-            }
-            if (y == total){
-                System.out.println("t");
-            }
+            System.out.println(total);
         }
-        System.out.println("Average " + total / array.length);    //System.out.println("Average " + total / array.length);
+        System.out.println("Average " + total / array.length);
+        e = array[2];
+        array[2] = array[4];
+        array[4] = e;
+        System.out.println(e);
+        */
+        int[] array = new int[10]; //how many positions
+        int total = 0;
+        int a, b, c, d, f, g;
+        int e = 0;
+        for (int que2 = 0; que2 < array.length; que2++) {
+            array[que2] = (int) (Math.random() * 100) + 1;
         }
+        for (int i = 0; i < array.length; i++) {
+            total = array[i] + total;
+            System.out.println(total);
+        }
+        e = array[1];
+        array[1] = array[9];
+        array[9] = e;
+        System.out.println(e + " e");
+        for (int i = array.length - 1; i >= 0; i--){
+            System.out.println(array[i] + "were");
+        }
+        System.out.println("Average " + total / array.length);
+
+        //for (int i = array.length - 1; i >= 0; i--) {
+        //    System.out.println(array[i] + "aaa");
+        //}
     }
-    //for (int i = 0; i < array.length; i++){
-//            if (array[i] == x){
-//                swap = array[i];
-//                System.out.println(array[i]);
-//            }
+}
