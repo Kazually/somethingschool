@@ -1,4 +1,6 @@
 import java.util.Arrays;
+import java.util.Collection;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -28,19 +30,24 @@ public class Main {
 */
         //swap
         int[] array = new int[10]; //how many positions
-        int x = 58;
-        int swap = 60;
-        while
+        int x = 24;
+        int y = 89;
+        int total = 0;
+        int swap = 0;
         for (int que2 = 0; que2 < array.length; que2++) {
             array[que2] = (int) (Math.random() * 100) + 1;
-            System.out.println(array[que2]);
+        }
+        for (int i = 0; i < array.length; i++) {
+            total = array[i] + total;
+            System.out.println(total); // 1+2=3, 2+3=5, 3+5
+            if (total == x) {
+                System.out.println("workd " + total);
             }
-        for (int j : array) {
-            if (j == x) {
-                swap = j;
-                System.out.println(j);
+            if (y == total){
+                System.out.println("t");
             }
         }
+        System.out.println("Average " + total / array.length);    //System.out.println("Average " + total / array.length);
         }
     }
     //for (int i = 0; i < array.length; i++){
