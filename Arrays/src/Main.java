@@ -15,7 +15,6 @@ public class Main {
         }
     System.out.println("ones count "+count);
 
-    //
         int[] array = new int[10]; //how many positions
         int total = 0;
         for (int que2 = 0; que2 < array.length; que2++) {
@@ -45,6 +44,8 @@ public class Main {
         array[4] = e;
         System.out.println(e);
         */
+
+
         int[] array = new int[10]; //how many positions
         int total = 0;
         int e = 0;
@@ -53,14 +54,15 @@ public class Main {
         }
         for (int i = 0; i < array.length; i++) {
             total = array[i] + total;
+            //System.out.println(total);
         }
-        System.out.println("Average " + total / array.length);
         for(int i = array.length-1; i >= 0; i--){
-            System.out.println(array[i] + "o");
+            System.out.println(array[i]);
         }
-        e = array[2];
-        array[2] = array[4];
+        e = array[9];
+        array[9] = array[4];
         array[4] = e;
-        System.out.println(e + " e");
+        System.out.println(e + " swapped " + array[9]);
+        System.out.println("Average " + total / array.length);
         }
     }

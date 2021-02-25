@@ -13,22 +13,22 @@ public class Main {
     perfect square it returns -1
     brute force algorithm/guess and check
      */
-    public static int[] number (int[] inputarray, int num) {
+    public static int[] number(int[] inputarray, int num) {
         int[] outputarray = new int[inputarray.length + 1];
         //in a for loop copy the input array to the output array
         //return the array
         return outputarray;
     }
 
-        //public static int sqrt(int num){
-        //double guess = 0;
-        //int increment = 1;
-        //double low = 0;
-        //double high = num;
-        //double mid = (low + high) / 2;
-        //double increment = .000000001;
-        //int count = 0;
-        //double error = .000001;
+    //public static int sqrt(int num){
+    //double guess = 0;
+    //int increment = 1;
+    //double low = 0;
+    //double high = num;
+    //double mid = (low + high) / 2;
+    //double increment = .000000001;
+    //int count = 0;
+    //double error = .000001;
         /*while ( (Math.abs((guess * guess - num)) > error) && (guess * guess < num)){ //guess * guess < num previously here
             guess += increment;
             count++;
@@ -49,9 +49,24 @@ public class Main {
         //} else {
         //    return -1;
         //}*/
+    public static int sqrt(int num) {
+        int guess = 0;
+        int increment = 1;
+        while (guess * guess < num) {
+            guess = guess + increment; // instead of just = its += increment(orwhatever)
+        }
+        if ((guess * guess) == num) {
+            return guess; //once it reaches desired, code stops no matter what
+        } else {
+            return -1;
+        }
+    }
 
+            public static void main(String[] args) {
+                System.out.println("inside");
+                System.out.println(sqrt(144));
 
-    public static void main(String[] args) {
+    //public static void main(String[] args) {
         //System.out.println(sqrt(144)); // 200 = -1
         //int x = returnfive();
         //public static int[] deletenumber(int[] inputarray){
@@ -59,6 +74,8 @@ public class Main {
         }
         //public static int[] insertnumber(int[] inputarray, int num)
         //int numbers [] = new int[];
+
+
 
         /*System.out.println("whatever copycat");
         "psvm" then press 'tab' key
@@ -115,7 +132,7 @@ public class Main {
 
         System.out.println( 5< 10 || 10 > 8);
         System.out.println(5< 10 && 10 > 8);
-        System.out.println(false || !false); //! means not
+        System.out.println(false || !false); //!= does not equal to
         System.out.println(!false != false);
         modulus 2 divide by 3 equals 0 remainder 2 (would be 0-4)
 
@@ -157,4 +174,3 @@ public class Main {
         int age = scanner.next();
          */
     }
-}
