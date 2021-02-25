@@ -47,26 +47,20 @@ public class Main {
         */
         int[] array = new int[10]; //how many positions
         int total = 0;
-        int a, b, c, d, f, g;
         int e = 0;
         for (int que2 = 0; que2 < array.length; que2++) {
             array[que2] = (int) (Math.random() * 100) + 1;
         }
         for (int i = 0; i < array.length; i++) {
             total = array[i] + total;
-            System.out.println(total);
-        }
-        e = array[1];
-        array[1] = array[9];
-        array[9] = e;
-        System.out.println(e + " e");
-        for (int i = array.length - 1; i >= 0; i--){
-            System.out.println(array[i] + "were");
         }
         System.out.println("Average " + total / array.length);
-
-        //for (int i = array.length - 1; i >= 0; i--) {
-        //    System.out.println(array[i] + "aaa");
-        //}
+        for(int i = array.length-1; i >= 0; i--){
+            System.out.println(array[i] + "o");
+        }
+        e = array[2];
+        array[2] = array[4];
+        array[4] = e;
+        System.out.println(e + " e");
+        }
     }
-}
