@@ -12,18 +12,17 @@ public class Main {
         for (int i = 0; i < array.length; i++) {
             array[i] = (int) (Math.random() * 50) + 1;
             array[i] = array[4];
-            //total = array[i] + total;
-            //System.out.println(array[i]);
-            System.out.println(" ");
+            System.out.println(array[i] + " first array");
         }
         //l = array[4];
         //int k = 0;
         //int called = 0;
-        int[] array2 = new int[10];
+        int[] array2 = new int[1];
         for (int i = 0; i < array2.length; i++) {
             array2[i] = (int) (Math.random() * 50) + 1;
+            System.out.println(array2[i] + " second array");
             total = array2[i] + array[4];
-            System.out.println(total);
+            System.out.println(total + "this work?");
         }
 
     /*public static int num(int[] inputArray, int num){
