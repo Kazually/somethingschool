@@ -7,7 +7,7 @@ public class Main {
         int l = 0;
         //int y = 0;
         int total = 0;
-        int[] array = new int[10];
+        int[] array = new int[6];
         //boolean red = true;
         for (int i = 0; i < array.length; i++) {
             array[i] = (int) (Math.random() * 50) + 1;
