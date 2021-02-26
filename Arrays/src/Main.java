@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-    /*int[] array = new int[20]; //square brackets = array
+    int[] array = new int[20]; //square brackets = array
         int count = 0;
     for (int que1 = 0; que1 < array.length; que1++){
         array[que1] = (int)(Math.random()*6)+1;
@@ -15,17 +15,17 @@ public class Main {
         }
     System.out.println("ones count "+count);
 
-        int[] array = new int[10]; //how many positions
+        int[] array2 = new int[10]; //how many positions
         int total = 0;
-        for (int que2 = 0; que2 < array.length; que2++) {
-            array[que2] = (int) (Math.random() * 100) + 1;
+        for (int que2 = 0; que2 < array2.length; que2++) {
+            array2[que2] = (int) (Math.random() * 100) + 1;
         }
-        for (int i = 0; i < array.length; i++) {
-            total = array[i] + total;
+        for (int i = 0; i < array2.length; i++) {
+            total = array2[i] + total;
             System.out.println(total); // 1+2=3, 2+3=5, 3+5
         }
-        System.out.println("Average " + total / array.length);
-*/
+        System.out.println("Average " + total / array2.length);
+
         //swap
         /*int[] array = new int[10]; //how many positions
         int total = 0;
@@ -45,7 +45,7 @@ public class Main {
         System.out.println(e);
         */
 
-
+/*
         int[] array = new int[10]; //how many positions
         int total = 0;
         int e = 0;
@@ -64,5 +64,5 @@ public class Main {
         array[4] = e;
         System.out.println(e + " swapped " + array[9]);
         System.out.println("Average " + total / array.length);
-        }
-    }
+        }*/
+    }}
