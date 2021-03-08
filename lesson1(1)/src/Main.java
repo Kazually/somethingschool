@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
@@ -13,7 +14,7 @@ public class Main {
     perfect square it returns -1
     brute force algorithm/guess and check
      */
-    public static int[] number(int[] inputarray, int num) {
+    /*public static int[] number(int[] inputarray, int num) {
         int[] outputarray = new int[inputarray.length + 1];
         //in a for loop copy the input array to the output array
         //return the array
@@ -49,7 +50,7 @@ public class Main {
         //} else {
         //    return -1;
         //}*/
-    public static int sqrt(int num) {
+    /*public static int sqrt(int num) {
         int guess = 0;
         int increment = 1;
         while (guess * guess < num) {
@@ -173,4 +174,30 @@ public class Main {
         String name = scanner.next();
         int age = scanner.next();
          */
-    }
+        //public static void main(String[] args) {
+            //String, int[], other datatypes
+                //ArrayList<Owner> list = new ArrayList<>();
+                //Owner person = new Owner("Jim Bob");
+                //list.add(person);
+                //for (int i = 0; i< 10; i++);
+                //list.add(new Owner("Owner" + 1));
+
+          //  }
+            //Owner owner1 = list.get(5);
+            //owner1.setname("Jimmy Bobby")
+          public static void main(String[] args) {
+              Car car = new Car("blue", 100, 4, 0);
+              System.out.println(car.getCurrentSpeed());
+              car.setCurrentSpeed(20);
+              System.out.println(car.getCurrentSpeed());
+              //Car car1 = new Car();
+              /*car1.color = "Blue";
+              System.out.println(car1.color);
+              Car car2 = new Car();
+              car1.color = "Red";
+              System.out.println(car2.color);
+              car1.maxSpeed = 100;
+              car1.setCurrentSpeed(50);
+              System.out.println(car1.setCurrentSpeed());*/
+          }
+}
