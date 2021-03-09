@@ -3,6 +3,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        //average numbers
     int[] array = new int[20]; //square brackets = array
         int count = 0;
     for (int que1 = 0; que1 < array.length; que1++){
@@ -45,7 +46,9 @@ public class Main {
         System.out.println(e);
         */
 
-/*
+
+        //average out
+        /*
         int[] array = new int[10]; //how many positions
         int total = 0;
         int e = 0;
@@ -65,4 +68,5 @@ public class Main {
         System.out.println(e + " swapped " + array[9]);
         System.out.println("Average " + total / array.length);
         }*/
-    }}
+    }
+}

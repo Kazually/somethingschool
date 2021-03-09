@@ -1,43 +1,31 @@
 import java.util.Arrays;
 
 public class Main {
-    /*public static double squareRoot(double num) {
-        double errorcheck = .00001;
-        double high = num;
-        double low = 0;
-        double mid = (high + low) / 2;
-        int count = 0;
-        while (Math.abs(mid * mid - num) > errorcheck && mid < num) {
-            count++;
-            if (mid * mid > num) {
-                high = mid;
-            } else {
-                low = mid;
-            }
-            mid = (low + high) / 2;
-        }
-        if (Math.abs(mid * mid - num) < errorcheck) {
-            System.out.println("Square counts " + count + " its " + mid);
-            return mid;
 
-        } else {
-            System.out.println("failed");
-            return mid;
+    public static int[] addnum(int[] array, int num){
+        int[] newarray = new int[array.length + 1];
+        for (int i = 0; i < array.length; i++){
+            array[i] = newarray[i];
         }
+        newarray[array.length] = num;
+        return array;
     }
-
 
     public static void main(String[] args) {
-        int[] array1 = new int[10]; //square brackets = array
-        int count = 0;
-        int k = 0;
-        int l = 0;
-        for (int que1 = 0; que1 < array1.length; que1++) {
-            array1[que1] = (int) (Math.random() * 20) + 1;
-            System.out.println(array1[que1]);
-            array1[que1] = k;
+        System.out.println("original " );
+        int[] arr = new int[]{1,2,3,4,5};
+        for (int i = 0; i < arr.length; i ++ ){
+            System.out.println(arr[i]);
+        }
+
+        System.out.println();
+        System.out.println("add: ");
+        arr = addnum(arr, 5);
+        for (int i = 0; i < arr.length; i++){
+            System.out.println(arr[i]);
         }
     }
+    /*
     public static void main(String[] args) {
         int[] array1 = new int[5];
         for (int que1 = 0; que1 < array1.length; que1++) {
@@ -104,6 +92,7 @@ public class Main {
         System.out.println(array[5]);
     }
 */
+    /*
     public static void main(String[] args) {
         int total = 0;
         int[] array = new int[6];
@@ -120,5 +109,5 @@ public class Main {
             total = array2[i] + array[4];
             System.out.println(total + "this work?");
         }
-    }
+    }*/
 }

@@ -186,18 +186,20 @@ public class Main {
             //Owner owner1 = list.get(5);
             //owner1.setname("Jimmy Bobby")
           public static void main(String[] args) {
-              Car car = new Car("blue", 100, 4, 0);
+              /*Car car = new Car("blue", 100, 4, 0);
               System.out.println(car.getCurrentSpeed());
               car.setCurrentSpeed(20);
               System.out.println(car.getCurrentSpeed());
-              //Car car1 = new Car();
-              /*car1.color = "Blue";
-              System.out.println(car1.color);
+              System.out.println(car);
+              Car carl = new Car("red", 20, 1, 0);
+              */
+              /*Car car = new Car();
               Car car2 = new Car();
-              car1.color = "Red";
-              System.out.println(car2.color);
-              car1.maxSpeed = 100;
-              car1.setCurrentSpeed(50);
-              System.out.println(car1.setCurrentSpeed());*/
+              System.out.println(car.getCarIDGenerator());
+              System.out.println(car2.getCarIDGenerator());**/
+              for (int i = 0; i < 9; i++){
+                  Car car = new Car();
+                  System.out.println(car);
+              }
           }
 }
