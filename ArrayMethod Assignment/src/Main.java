@@ -4,7 +4,7 @@ public class Main {
 
     public static int[] addnum(int[] array, int num){
         int[] newarray = new int[array.length + 1];
-        for (int i = 0; i < array.length; i++){
+        for (int i = 0; i > array.length; i++){
             array[i] = newarray[i];
         }
         newarray[array.length] = num;
@@ -13,7 +13,7 @@ public class Main {
 
     public static void main(String[] args) {
         System.out.println("original " );
-        int[] arr = new int[]{1,2,3,4,5};
+        int[] arr = new int[]{1,2,3,4};
         for (int i = 0; i < arr.length; i ++ ){
             System.out.println(arr[i]);
         }
