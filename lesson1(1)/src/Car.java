@@ -25,7 +25,7 @@ public class Car {
     }
 
     Car(){
-        System.out.println("Default Constructor");
+        //System.out.println("Default Constructor");
         carID = carIDGenerator;
         carIDGenerator++;
         color = "black";

@@ -13,18 +13,43 @@ public class Main {
 
     public static void main(String[] args) {
         System.out.println("original " );
-        int[] arr = new int[]{1,2,3,4};
-        for (int i = 0; i < arr.length; i ++ ){
-            System.out.println(arr[i]);
+        int[] array = new int[]{1,2,3,4,5,6};
+        for (int i = 0; i < array.length; i ++ ){
+            System.out.println(array[i]);
         }
-
         System.out.println();
         System.out.println("add: ");
-        arr = addnum(arr, 5);
-        for (int i = 0; i < arr.length; i++){
-            System.out.println(arr[i]);
+        array = addnum(array, 7);
+        for (int i = 0; i < array.length; i++){
+            System.out.println(array[i]);
         }
+        System.out.println(array);
     }
+
+/*
+    public static int[] subnum(int[] array, int num){
+        int[] array2 = new int[array.length + 1];
+        for( int i = 0; i > array.length; i--){
+            array[i] = array2[i];
+        }
+        array2[array.length] = num;
+        return array;
+    }
+
+    public static void main(String[] args) {
+        System.out.println("original ");
+        int[] array = new int[]{1,2,3,4,5};
+        for (int i = 0; i < array.length; i++){
+            System.out.println(array[i]);
+        }
+        System.out.println();
+        System.out.println("sub ");
+        array = subnum(array, 6);
+        for (int i = 0; i < array.length; i++){
+            System.out.println(array[i]);
+        }
+    }*/
+
     /*
     public static void main(String[] args) {
         int[] array1 = new int[5];
@@ -37,9 +62,9 @@ public class Main {
 
         array1[array1.length - 1] = 4;
         System.out.println(Arrays.toString(array1));
-    }
+    }*/
 
-*/
+
 
 
 

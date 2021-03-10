@@ -185,21 +185,23 @@ public class Main {
           //  }
             //Owner owner1 = list.get(5);
             //owner1.setname("Jimmy Bobby")
-          public static void main(String[] args) {
+          /*public static void main(String[] args) {
               /*Car car = new Car("blue", 100, 4, 0);
               System.out.println(car.getCurrentSpeed());
               car.setCurrentSpeed(20);
               System.out.println(car.getCurrentSpeed());
               System.out.println(car);
               Car carl = new Car("red", 20, 1, 0);
-              */
-              /*Car car = new Car();
+
+              Car car = new Car();
               Car car2 = new Car();
               System.out.println(car.getCarIDGenerator());
-              System.out.println(car2.getCarIDGenerator());**/
+              System.out.println(car2.getCarIDGenerator());
               for (int i = 0; i < 9; i++){
                   Car car = new Car();
                   System.out.println(car);
               }
-          }
+          }*/
+
+
 }
